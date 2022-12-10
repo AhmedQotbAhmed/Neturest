@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>Neturest</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" type="image/png" href="images/fav-icon2.ico" />
+    <link rel="shortcut icon" type="image/png" href="images/fav-icon2.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+    <link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a target ="_blank" href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">
+			<i class="rt-icon2-cross2"></i>
+		</span>
+	</button>
+        <div class="widget widget_search">
+            <form method="get" class="searchform search-form form-inline" action="./">
+                <div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit" class="theme_button no_bg_button">Search</button> </form>
+        </div>
+    </div>
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+        <div class="fw-messages-wrap ls with_padding">
+            <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+            <!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+        </div>
+    </div>
+    <!-- eof .modal -->
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+            <!-- template sections -->
+            <section class="page_topline ls background_cover">
+                <div class="container-fluid">
+                    <div class="row flex-wrap v-center">
+                        <div class="col-xs-12 col-md-6 col-md-push-3 col-sm-12 text-center">
+                            <div class="inline-content big-spacing grey"> <span class="teaser darklinks">
+						<span class="teaser_icon small main_bg_color round">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</span> <strong>+20</strong> 01016736698 </span> <span class="teaser darklinks color2">
+						<span class="teaser_icon small main_bg_color2 round">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span> <a href="mailto:neturest@gmail.com">neturest@gmail.com</a> </span> <span class="teaser darklinks color3">
+						  </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-3 col-md-pull-6 col-sm-6 text-center text-md-left margin_0">
+                            <div class="darklinks"> <a class="social-icon socicon-facebook" target ="_blank" href="https://www.facebook.com/neturest" title="Facebook"></a> <a class="social-icon socicon-linkedin" target ="_blank" href="https://www.linkedin.com/in/neturest" title="Linkedin"></a> <a class="social-icon socicon-youtube" target ="_blank" href="https://www.youtube.com/channel/UCJIEJHWWi_57ECFNlPhqA8A?view_as=subscriber" title="Youtube"></a> </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <header class="page_header header_white divided_items tall_header template_header toggler_xs_right columns_margin_0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 display_table">
+                            <div class="header_left_logo display_table_cell"> <a href="./" class="logo">
+                        <img src="images/logo.png" alt="">
+                    </a> </div>
+                            <div class="header_mainmenu display_table_cell text-center">
+                                <!-- main nav start -->
+                                <nav class="mainmenu_wrapper">
+                                    <ul class="mainmenu nav sf-menu">
+                                        <li> <a href="home.html">Home</a>
+                                        </li>
+                                        <!-- eof pages -->
+                                        <li> <a href="about.html">About Us</a> </li>
+                                        <li> <a href="foodsafety.html">Food Safety</a>
+                                        </li>
+                                        <!-- eof features -->
+                                        <!-- shop -->
+                                        <li class="active"> <a href="shop.html">Shop</a>
+                                        </li>
+                                        <!-- eof shop -->
+                                        <!-- contacts -->
+                                        <li> <a href="contact.html">Contacts</a>
+                                        </li>
+                                        <!-- eof contacts -->
+                                    </ul>
+                                </nav>
+                                <!-- eof main nav -->
+                                <!-- header toggler --><span class="toggle_menu"><span></span></span>
+                            </div>
+                            <div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="contact.html" class="theme_button gradient2 min_width_button"><span class="additional">Request</span> call back</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="page_breadcrumbs cs background_cover top_mask_subtract bottom_mask_subtract section_padding_top_75 section_padding_bottom_75">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h1 class="sr-only">Products</h1>
+                            <ol class="breadcrumb">
+                                <li> <a href="./">
+							Home
+						</a> </li>
+                                <li> <a href="#">Shop</a> </li>
+                                <li class="active"><span>Products</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ls section_padding_top_150 section_padding_bottom_150 columns_padding_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="shop-sorting text-center">
+                                    <div class='lead'> Showing 1-6 of 36 results </div>
+                            </div>
+                            <div class="columns-3">
+                                <ul id="products" class="products list-unstyled loop-colors">
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/Cardamom.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title "> <a href="shop-product.html">Cardamom</a> </h3>
+
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                       <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/chamomile.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Chamomile</a> </h3>
+
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/Coriander.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Coriander</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/Black-cummin.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Black Cummin</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/Cumin-Seeds.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Cumin Seeds</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/fennel.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Fennel</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/Fenugreek-Seeds.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Fenugreek Seeds</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/hibiscus.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Hibiscus</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="product type-product">
+                                        <article class="vertical-item content-padding with_background bottom_color_border rounded overflow_hidden">
+                                            <div class="item-media"> <img src="images/shop/lemon_balm.jpg" alt="" /> </div>
+                                            <div class="item-content text-center">
+                                                <h3 class="entry-title"> <a href="shop-product.html">Lemon Balm</a> </h3>
+                                                <p class="topmargin_20"> <a href="contact.html" class="theme_button color1 small_button min_width_button add_to_cart">Buy now</a> </p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- eof .columns-* -->
+                            <div class="text-center topmargin_30">
+                                <ul class="pagination">
+                                    <li class="disabled"><a href="shop.html"><span class="sr-only">Prev</span><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                                    <li><a href="shop.html">1</a></li>
+                                    <li class="active"><a href="shop2.html">2</a></li>
+                                    <li><a href="shop3.html">3</a></li>
+                                    <li><a href="shop4.html">4</a></li>
+                                    <li><a href="shop3.html"><span class="sr-only">Next</span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="page_footer footer_variant1 ds top_mask_add bottom_mask_add section_padding_top_75 section_padding_bottom_105 columns_margin_bottom_40">
+                <div class="container">
+                    <div class="row flex-wrap v-center">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-md-push-4 text-center">
+                            <div class="logo bottommargin_25"> <img src="images/logo-vertical-light.png" alt=""> </div>
+                            <p class="darklinks regular"> <span class="bold"><a href="mailto:info@neturest.com">info@neturest.com</a><br> 64 Industrial Zone, 6th October, Egypt  <br>   <span> <strong>+20</strong> 01016736698 </span></span></p>
+                            <p class="topmargin_30"> <a class="social-icon color-icon bg-icon rounded-icon socicon-facebook" target ="_blank" href="https://www.facebook.com/neturest" title="Facebook"></a> <a class="social-icon color-icon bg-icon rounded-icon socicon-googleplus" target ="_blank" href="https://plus.google.com/u/0/110070604944319162343" title="Google Plus"></a> </p>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+    <script src="js/compressed.js"></script>
+    <script src="js/selectize.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--  -->
+</body>
+
+</html>
